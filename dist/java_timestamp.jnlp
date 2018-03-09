@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="java_timestamp.jnlp">
+  <information>
+    <title>java_timestamp</title>
+    <vendor>jakeaddis</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="java_timestamp.jar" size="61130" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.21-bin.jar" size="827942" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="java_timestamp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="java_timestamp.Java_timestamp"  name="java_timestamp" />
+  <update check="always"/>
+</jnlp>
