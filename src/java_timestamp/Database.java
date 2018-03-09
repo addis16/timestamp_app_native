@@ -15,7 +15,7 @@ import javafx.scene.control.Label;
 public class Database {
     
     private static final String USERNAME = "access";
-    private static final String PASSWORD = "Illusion16";
+    private static final String PASSWORD = "password";
     private static final String CONN_STRING = 
             "jdbc:mysql://localhost/java_timestamp";
     
